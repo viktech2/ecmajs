@@ -11,15 +11,17 @@ async function asynchronousCheck (arr){
     //     await test(element);
     // });
 
-/*     for(const item of arr){
+    for(const item of arr){
         console.log(item);
         await test(item);
-    } */
+    }
 
-    arr.map(async (item)=>{
+       // log(arr);
+        
+/*     arr.map(async (item)=>{
         console.log(item);
         await test(item);
-    })
+    }) */
 
     // const promises = arr.map(test);
     // await Promise.all(promises);
@@ -29,12 +31,19 @@ async function asynchronousCheck (arr){
 
 }
 
+/* const log = async function(arr){
+    for(const item of arr){
+        console.log(item);
+        await test(item);
+    }
+} */
+
 const test = function(val){
     return new Promise(resolve=>{
         setTimeout(function(){
             //console.log(val);
            resolve(val);     
-        }, 20000);
+        }, 2000);
 
     });
 
