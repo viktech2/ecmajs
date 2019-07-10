@@ -32,3 +32,12 @@ function longRun(){
 log(new Date().getTime());
 longRun();
 log(new Date().getTime());
+
+
+const elems1 = ["Anc", 1, false, "Bloa", 310];
+
+elems1.forEach(element => {
+    console.log(element);
+});
+
+console.log(elems1);
