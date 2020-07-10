@@ -9,7 +9,8 @@
     "uniqid": "^5.0.3"
   },
   "devDependencies": {
-    "jest": "^23.6.0"
+    "jest": "^23.6.0",
+    "moment": "^2.27.0"
   },
   "scripts": {
     "test": "jest",
