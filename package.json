@@ -4,6 +4,7 @@
   "description": "",
   "main": "async.js",
   "dependencies": {
+    "fs": "0.0.1-security",
     "node-fetch": "^2.6.0",
     "rxjs": "^6.3.3",
     "uniqid": "^5.0.3"
