@@ -7,5 +7,7 @@ const message = {
 
 
 message['attachment'] = 'filename';
+message['to'] = 'vik@imerit.net';
+
 
 console.log(message);
