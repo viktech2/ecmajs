@@ -16,7 +16,6 @@ async function asynchronousCheck (arr){
         await test(item);
     }
 
-       // log(arr);
         
 /*     arr.map(async (item)=>{
         console.log(item);
